@@ -1,4 +1,7 @@
-#include <Arduino.h>;
+int trigPin = 11;
+int echoPin = 12;
+
+long duration, cm;
 
 void ultrasonic()
 {
@@ -16,6 +19,4 @@ void ultrasonic()
 
     // Convert the time into a distance
     cm = (duration / 2) / 29.1;
-
-    Serial.print(cm);
 }
