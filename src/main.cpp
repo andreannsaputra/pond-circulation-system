@@ -33,4 +33,16 @@ void loop()
   // lcd.setCursor(5, 0);
   // lcd.print(cm);
   // delay(250);
+
+  // display initial value of ultrasonic and photodiode
+
+  // if ultrasonic detects the water level is at 25 cm
+  // the pump will turn off
+
+  // otherwise the pump 1 will turn on and fill the water
+
+  // if the photodiode detects low water turbidity levels
+  // solenoid valve will close
+
+  // else solenoid valve will open
 }
